@@ -28,11 +28,10 @@ let app = new Vue({
         //  console.log(arr);
 
         const arrc = Object.entries(response.data);
-        // this.flights = arrc;
+        
         // console.log(arrc[0]);
 
-        // let firstFlights = arrc[0][1];
-        // const arrf = Object.entries(firstFlights);
+        
         // console.log(arrc[0][1]);
 
         this.flights = arrc[0][1];
